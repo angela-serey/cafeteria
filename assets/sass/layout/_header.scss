@@ -1,0 +1,69 @@
+.header{
+    position: relative;
+    font-family: $pt-mono;
+}
+.row{
+     height: 440px;
+ }
+  
+
+.coffee{
+    font-family: $pt-mono;
+    font-size: $x-large;
+    clear: both;
+
+}
+h1 {
+    font-family: $pt-mono;
+    font-size: $xxx-large;
+}
+h3{
+    font-family: $Roboto;
+    font-size: $x-large;
+
+}
+
+.container__white{
+    width: 470px;
+    height: 135px;
+    background-color: white;
+    position: relative;
+    left: 445px;
+    top: -135px;
+}
+.header__text {
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 10px;
+
+
+}
+.vertical{
+    width: 1px;
+    height: 15px;
+}
+
+
+.container__naranjo{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    margin-left: 67%;
+    margin-top: 289px;
+    z-index: 2;
+    background-color: $light-red-ochre;
+}
+.container__amarillo{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 320px;
+    z-index: 1;
+    background-color: $buff;
+}
+.icon i{
+    color: $white;
+    padding-top: 37px;
+    padding-left: 37px;
+}
